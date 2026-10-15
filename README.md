@@ -30,7 +30,8 @@ maiz-yolo11/
 ├── datos/               (local) datasets originales y derivados
 ├── runs/                (local) corridas de Ultralytics: oe1/, oe2/
 ├── modelos/             (local) pesos preentrenados en COCO (yolo11n.pt, yolo11s.pt)
-└── nube/                (local) paquetes para entrenar en Google Colab
+├── nube/                (local) paquetes para entrenar en Google Colab
+└── zenodo/              (local) zips publicados en Zenodo: datasets derivados y pesos
 ```
 
 Git solo versiona el código, los notebooks, los informes, los resultados, las figuras y las fotos propias. Las carpetas marcadas como *(local)* no se suben.
@@ -56,6 +57,8 @@ Los notebooks generan el resto de `datos/`:
 - `Data_2c_*`: variantes del diseño factorial;
 - `Data_final`: dataset final, 1280 px, partición por lote;
 - `fondos`: fondos negativos.
+
+`Data_corr_v6`, `Data_final`, `fondos` y los pesos de los modelos finales se publican en Zenodo, porque no caben en git. Los zips se generan en `zenodo/`.
 
 ## Orden de ejecución
 

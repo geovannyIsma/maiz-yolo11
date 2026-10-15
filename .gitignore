@@ -12,5 +12,6 @@ __pycache__/
 /modelos/
 /nube/
 /trabajo/
+/zenodo/
 *.pt
 *.cache
