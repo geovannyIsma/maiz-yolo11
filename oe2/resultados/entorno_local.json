@@ -1,0 +1,15 @@
+{
+ "plataforma": "local",
+ "CPU": "11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz",
+ "núcleos": 16,
+ "RAM (GB)": 16.4,
+ "GPU": "NVIDIA GeForce RTX 3060 Laptop GPU",
+ "VRAM (GB)": 6.1,
+ "Python": "3.14.8",
+ "PyTorch": "2.14.1+cu132",
+ "CUDA": "13.2",
+ "Ultralytics": "8.4.174",
+ "Albumentations": "2.0.8",
+ "OpenCV": "5.0.0",
+ "NumPy": "2.5.3"
+}

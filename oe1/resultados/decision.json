@@ -1,0 +1,29 @@
+{
+ "resolucion": {
+  "elegido": 1280,
+  "960 - 640": {
+   "diferencia": 0.0192,
+   "valor_p": 0.0
+  },
+  "1280 - 960": {
+   "diferencia": 0.0078,
+   "valor_p": 0.0527
+  },
+  "regla": 960,
+  "nota": "Desviación declarada: la regla da 960; se adopta 1280, la de mayor media (+0.0078 frente a 960, p = 0.053; 12/16 comparaciones pareadas a favor), por la tendencia creciente con la resolución, coherente con el EDA, y por su costo asumible."
+ },
+ "fotometrico": {
+  "elegido": "base",
+  "norm - base": {
+   "diferencia": 0.0019,
+   "valor_p": 0.5595
+  }
+ },
+ "balanceo": {
+  "elegido": "sinbal",
+  "bal - sinbal": {
+   "diferencia": -0.0029,
+   "valor_p": 0.3724
+  }
+ }
+}

@@ -1,0 +1,15 @@
+{
+ "plataforma": "colab",
+ "CPU": "Intel(R) Xeon(R) CPU @ 2.20GHz",
+ "núcleos": 12,
+ "RAM (GB)": 89.6,
+ "GPU": "NVIDIA A100-SXM4-40GB",
+ "VRAM (GB)": 42.4,
+ "Python": "3.13.15",
+ "PyTorch": "2.11.0+cu130",
+ "CUDA": "13.0",
+ "Ultralytics": "8.4.174",
+ "Albumentations": "2.0.8",
+ "OpenCV": "4.14.0",
+ "NumPy": "2.1.3"
+}

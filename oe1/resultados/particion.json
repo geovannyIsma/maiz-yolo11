@@ -1,0 +1,4327 @@
+{
+ "gap_lote_s": 300,
+ "gap_lote_contador": 5,
+ "fraccion_test": 0.15,
+ "k": 4,
+ "semilla_test": 9,
+ "semilla_pliegues": 110,
+ "imagenes": {
+  "20220510_103345_jpg.rf.7b92a7f6fcfd26a8c8569e303dc599f2": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_003",
+   "subtipos": {
+    "Weeveled": 26,
+    "Healthy": 14,
+    "Fungus": 10,
+    "Damage": 1
+   }
+  },
+  "20220510_103401_jpg.rf.c578bc8e9c08e86c0054bbab14752b3f": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_003",
+   "subtipos": {
+    "Healthy": 14,
+    "Weeveled": 26,
+    "Fungus": 9,
+    "Immature": 1,
+    "Damage": 1
+   }
+  },
+  "20220510_103427_jpg.rf.ba71763d16d877c86ff6127a02d037f2": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_003",
+   "subtipos": {
+    "Weeveled": 31,
+    "Fungus": 6,
+    "Damage": 1,
+    "Healthy": 13
+   }
+  },
+  "20220510_103450_jpg.rf.29786e229201565fe2c587d2452de4c4": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_003",
+   "subtipos": {
+    "Healthy": 14,
+    "Fungus": 8,
+    "Weeveled": 25,
+    "Immature": 3,
+    "Damage": 1
+   }
+  },
+  "20220510_103459_jpg.rf.325c25417174f7afec65b15c5d5e1145": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_003",
+   "subtipos": {
+    "Weeveled": 34,
+    "Healthy": 14,
+    "Fungus": 3
+   }
+  },
+  "20220510_103515_jpg.rf.61c09aecd1f0bf5d14a407c362555536": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_003",
+   "subtipos": {
+    "Healthy": 13,
+    "Fungus": 7,
+    "Weeveled": 29,
+    "Immature": 1,
+    "Damage": 1
+   }
+  },
+  "20220510_103529_jpg.rf.01e163476ba0b6d897d0a0e175bba3c3": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_003",
+   "subtipos": {
+    "Weeveled": 27,
+    "Healthy": 16,
+    "Fungus": 7,
+    "Damage": 1
+   }
+  },
+  "20220510_103540_jpg.rf.68ce8abf0504368123295d264f9ffffa": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_003",
+   "subtipos": {
+    "Weeveled": 21,
+    "Healthy": 19,
+    "Fungus": 9,
+    "Immature": 1,
+    "Damage": 1
+   }
+  },
+  "20220510_104202_jpg.rf.d4425cbfb0885b2a4c2dc97bd6c7710c": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "tiempo_004",
+   "subtipos": {
+    "Immature": 50
+   }
+  },
+  "20220510_104212_jpg.rf.407248c50d526c203498e26ee2d5f339": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "tiempo_004",
+   "subtipos": {
+    "Immature": 50
+   }
+  },
+  "20220510_104222_jpg.rf.d6e3b97d44a83ef16be5926cbdd1c399": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "tiempo_004",
+   "subtipos": {
+    "Immature": 50
+   }
+  },
+  "20220510_104233_jpg.rf.8b996e7472e420bcff7560184d02207a": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "tiempo_004",
+   "subtipos": {
+    "Immature": 50
+   }
+  },
+  "20220510_104243_jpg.rf.d1a6548d502a6d25ebc9088d45c9bca4": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "tiempo_004",
+   "subtipos": {
+    "Immature": 50
+   }
+  },
+  "20220510_110550_jpg.rf.a203ee619d0ed0f4ecd54df60635a76c": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "tiempo_005",
+   "subtipos": {
+    "Weeveled": 38,
+    "Healthy": 7,
+    "Fungus": 5,
+    "Damage": 1
+   }
+  },
+  "20220510_110604_jpg.rf.6e0d4d602d4e2fef385e250b693075d6": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "tiempo_005",
+   "subtipos": {
+    "Weeveled": 38,
+    "Fungus": 3,
+    "Healthy": 9,
+    "Damage": 1
+   }
+  },
+  "20220510_110617_jpg.rf.f67050040624a60d4e1bee279c084caf": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "tiempo_005",
+   "subtipos": {
+    "Weeveled": 37,
+    "Fungus": 8,
+    "Shriveled": 1,
+    "Healthy": 5
+   }
+  },
+  "20220510_110633_jpg.rf.4e8a1a59612ff415a6511f0f9d4a97a6": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "tiempo_005",
+   "subtipos": {
+    "Weeveled": 39,
+    "Healthy": 7,
+    "Immature": 1,
+    "Damage": 1,
+    "Fungus": 3
+   }
+  },
+  "20220510_110641_jpg.rf.883a75bc7f019a16da70a7b5b5507e19": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "tiempo_005",
+   "subtipos": {
+    "Weeveled": 39,
+    "Healthy": 7,
+    "Damage": 1,
+    "Fungus": 3,
+    "Immature": 1
+   }
+  },
+  "20220510_110650_jpg.rf.189f72950290ce9b6d79c8686277ad75": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "tiempo_005",
+   "subtipos": {
+    "Weeveled": 41,
+    "Healthy": 4,
+    "Damage": 1,
+    "Fungus": 5
+   }
+  },
+  "20220510_110702_jpg.rf.9f59c776cfda28db7209adc5f027a347": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "tiempo_005",
+   "subtipos": {
+    "Weeveled": 41,
+    "Fungus": 2,
+    "Healthy": 6,
+    "Immature": 1,
+    "Damage": 1
+   }
+  },
+  "20220510_110714_jpg.rf.f593043361d8de54e30919b4cf50b2c8": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "tiempo_005",
+   "subtipos": {
+    "Weeveled": 40,
+    "Fungus": 5,
+    "Damage": 1,
+    "Healthy": 5
+   }
+  },
+  "20220510_111535_jpg.rf.c687cd23a510ba96a6790f469d9ecaae": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "tiempo_006",
+   "subtipos": {
+    "Immature": 50
+   }
+  },
+  "20220510_111542_jpg.rf.1c33f1f3db1bcaaba30addb94b4484c1": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "tiempo_006",
+   "subtipos": {
+    "Immature": 50
+   }
+  },
+  "20220510_111550_jpg.rf.40eac8227f307950f8da06ab7e733979": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "tiempo_006",
+   "subtipos": {
+    "Immature": 50
+   }
+  },
+  "20220510_111557_jpg.rf.4f1422c7f8f57662d5dae9cd61055079": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "tiempo_006",
+   "subtipos": {
+    "Immature": 50
+   }
+  },
+  "20220510_111606_jpg.rf.24237284f2622b96d6102f26ed6505b3": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "tiempo_006",
+   "subtipos": {
+    "Immature": 50
+   }
+  },
+  "20220601_115256_jpg.rf.4a8e05dd0413db21ef7c7affbe8ee196": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_009",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "20220601_115323_jpg.rf.574c1594a616b74251d5db07fa71d4d3": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_009",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "20220601_115844_jpg.rf.f2318d637b1f4429f5b520ed2cfce09d": {
+   "conjunto": "test",
+   "pliegue": null,
+   "lote": "tiempo_010",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "20220601_115944_jpg.rf.30b673fe838bf00045e3c57cecf5eafc": {
+   "conjunto": "test",
+   "pliegue": null,
+   "lote": "tiempo_010",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "20220601_120114_jpg.rf.cd92e5d817b641228955fb2ba699244e": {
+   "conjunto": "test",
+   "pliegue": null,
+   "lote": "tiempo_010",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "20220601_120225_jpg.rf.0e46af13be59dbf74eb1b4c22d33d90a": {
+   "conjunto": "test",
+   "pliegue": null,
+   "lote": "tiempo_010",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "20220601_120343_jpg.rf.458a9671df74600b9f608ee8df37da48": {
+   "conjunto": "test",
+   "pliegue": null,
+   "lote": "tiempo_010",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "20220601_120414_jpg.rf.571fad718ecb573c5854a8f5c027a1c8": {
+   "conjunto": "test",
+   "pliegue": null,
+   "lote": "tiempo_010",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "20220601_120444_jpg.rf.b7ba3a5634d83f5ea0e2384d99c1f943": {
+   "conjunto": "test",
+   "pliegue": null,
+   "lote": "tiempo_010",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "20220601_120600_jpg.rf.fc149f0552a15f3787d16f7e24d3780b": {
+   "conjunto": "test",
+   "pliegue": null,
+   "lote": "tiempo_010",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "20220601_120731_jpg.rf.6d4b0c598cca13af58f42a713ed72807": {
+   "conjunto": "test",
+   "pliegue": null,
+   "lote": "tiempo_010",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "20220601_120930_jpg.rf.f01e78aa1246b14247eba1f3e3515ee4": {
+   "conjunto": "test",
+   "pliegue": null,
+   "lote": "tiempo_010",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "20220601_121004_jpg.rf.2781299bdbb94250f0676912a71277b7": {
+   "conjunto": "test",
+   "pliegue": null,
+   "lote": "tiempo_010",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "20220601_121028_jpg.rf.a72c94087a581495bf3b5b6a3681555c": {
+   "conjunto": "test",
+   "pliegue": null,
+   "lote": "tiempo_010",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "20220601_121050_jpg.rf.8caa7e290692603a772807f20cf95777": {
+   "conjunto": "test",
+   "pliegue": null,
+   "lote": "tiempo_010",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "20220601_121112_jpg.rf.3e54c1ba6e9a200cfd41a5fd6075d2d6": {
+   "conjunto": "test",
+   "pliegue": null,
+   "lote": "tiempo_010",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "20220601_121308_jpg.rf.4837608f919902e73d9b1ed829b57463": {
+   "conjunto": "test",
+   "pliegue": null,
+   "lote": "tiempo_010",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "20220601_121334_jpg.rf.1d8750963baf6521e0c7f59a51dc1228": {
+   "conjunto": "test",
+   "pliegue": null,
+   "lote": "tiempo_010",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "20220601_121417_jpg.rf.cd3f206ae93a3d5006d1d67fd1670435": {
+   "conjunto": "test",
+   "pliegue": null,
+   "lote": "tiempo_010",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "20220601_121447_jpg.rf.330e2113ea13ed6442cf3f4dd2517474": {
+   "conjunto": "test",
+   "pliegue": null,
+   "lote": "tiempo_010",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "20220601_121801_jpg.rf.8bc2745ecd693f58377f041dbfce6bf0": {
+   "conjunto": "test",
+   "pliegue": null,
+   "lote": "tiempo_010",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "20220601_121830_jpg.rf.841a1f3ad555c91d6b92d9cf562727f8": {
+   "conjunto": "test",
+   "pliegue": null,
+   "lote": "tiempo_010",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "20220601_121856_jpg.rf.565622772247cf151c5042994ff14392": {
+   "conjunto": "test",
+   "pliegue": null,
+   "lote": "tiempo_010",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "20220601_121928_jpg.rf.2f09b9f585b6dbe0e1f46edb951e77fc": {
+   "conjunto": "test",
+   "pliegue": null,
+   "lote": "tiempo_010",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "20220601_121955_jpg.rf.fc5a86a0bf612aad14e3b9cea7836e71": {
+   "conjunto": "test",
+   "pliegue": null,
+   "lote": "tiempo_010",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "20220601_122120_jpg.rf.cb29b4eb74e5328f8e247c00200afc15": {
+   "conjunto": "test",
+   "pliegue": null,
+   "lote": "tiempo_010",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "20220601_122200_jpg.rf.ffd4ba8416579a97f83a18d212d45d27": {
+   "conjunto": "test",
+   "pliegue": null,
+   "lote": "tiempo_010",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "20220601_122237_jpg.rf.de2e8bbdea8a9589c89ebb0ea193748f": {
+   "conjunto": "test",
+   "pliegue": null,
+   "lote": "tiempo_010",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "20220601_122308_jpg.rf.7ebcb64f47031577b20f09179a0dd98e": {
+   "conjunto": "test",
+   "pliegue": null,
+   "lote": "tiempo_010",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "20220601_122335_jpg.rf.070c95de8e969063b92e0b53d06f340c": {
+   "conjunto": "test",
+   "pliegue": null,
+   "lote": "tiempo_010",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "20220601_122408_jpg.rf.296ceda3afd592c295b90ab9989d3485": {
+   "conjunto": "test",
+   "pliegue": null,
+   "lote": "tiempo_010",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "20220601_122437_jpg.rf.ac86cadae4d012a75c46ba3fcfa1cdaf": {
+   "conjunto": "test",
+   "pliegue": null,
+   "lote": "tiempo_010",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "20220601_122508_jpg.rf.068cbd7eba287afc0dd7a31870f37424": {
+   "conjunto": "test",
+   "pliegue": null,
+   "lote": "tiempo_010",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "20220601_122533_jpg.rf.929ecdd3dd69162836525e58359c8e17": {
+   "conjunto": "test",
+   "pliegue": null,
+   "lote": "tiempo_010",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "20220601_122613_jpg.rf.67dc0c96c245a4ec7e514c5be4cc2104": {
+   "conjunto": "test",
+   "pliegue": null,
+   "lote": "tiempo_010",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "20220601_125146_jpg.rf.7bd9ee693f43233673724c5678611062": {
+   "conjunto": "test",
+   "pliegue": null,
+   "lote": "tiempo_011",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "20220601_125237_jpg.rf.05f58cab13360becec1e8399b5ab4f3b": {
+   "conjunto": "test",
+   "pliegue": null,
+   "lote": "tiempo_011",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "20220601_125303_jpg.rf.100fa6124654e326b8d8c5d8355ed117": {
+   "conjunto": "test",
+   "pliegue": null,
+   "lote": "tiempo_011",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "20220601_125327_jpg.rf.86cac6db3b7537fbfb54725e7d8d90c0": {
+   "conjunto": "test",
+   "pliegue": null,
+   "lote": "tiempo_011",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "20220601_125353_jpg.rf.792af47d68574a8a80ee479756a1daef": {
+   "conjunto": "test",
+   "pliegue": null,
+   "lote": "tiempo_011",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "20220601_125437_jpg.rf.1179185dbfb5b9872296b589eb81056d": {
+   "conjunto": "test",
+   "pliegue": null,
+   "lote": "tiempo_011",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "20220601_125506_jpg.rf.5b0c8d3ae7194d51445b7b80969af72e": {
+   "conjunto": "test",
+   "pliegue": null,
+   "lote": "tiempo_011",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "20220601_125544_jpg.rf.a88494b339d8aa6186b22a0c90188096": {
+   "conjunto": "test",
+   "pliegue": null,
+   "lote": "tiempo_011",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "20220601_125733_jpg.rf.a5eecb875f24bea457c50ca5fa111c24": {
+   "conjunto": "test",
+   "pliegue": null,
+   "lote": "tiempo_011",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "20220601_125752_jpg.rf.5289ec2018a1bf4bfcb4cb3f446d0c7d": {
+   "conjunto": "test",
+   "pliegue": null,
+   "lote": "tiempo_011",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "20220601_151702_jpg.rf.151457e46a97791db940d7f392c7eb9a": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "20220601_151724_jpg.rf.19b240673533e8cc8b983a6df28d6136": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "20220601_151742_jpg.rf.499599f2b34bf4dcbedfea27130fb92f": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "20220601_151751_jpg.rf.21aa07cdbef7000ec8f408017929637a": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "20220601_151800_jpg.rf.e2c6381c4b8d5e1bd89446fef63f6c08": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "20220601_151807_jpg.rf.856c2d577f47c867cbe0625b7d7c9e69": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "20220601_151848_jpg.rf.699f4d77f579b2391b5c99e4954565c8": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "20220601_151856_jpg.rf.a20cde328987f83d99de253534d8780a": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "20220601_151903_jpg.rf.8470817df833efecf68c30db0964773b": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "20220601_151921_jpg.rf.54bbe5689d361ab3bda3ce070bb82116": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "20220601_151932_jpg.rf.1283f053be335d2dc7606fc41d1d7dc5": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "20220601_151940_jpg.rf.22a6e2b0d7f918e7257d278c57ae6f61": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "20220601_151952_jpg.rf.8bbb648288fbfaa2b52909f0513f3934": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "20220601_152015_jpg.rf.6e9c0c4ef5a16fdbd17742a1f7b8535a": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "20220601_152044_jpg.rf.04e368101ce74d455ec3c84910819f87": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "20220601_152053_jpg.rf.f2b9685f2ab47b62ae3a6490804f9d91": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "20220601_152108_jpg.rf.24eead5770a7db4fa4774de6845360cd": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "20220601_152116_jpg.rf.7bc412b8f89db1b824c11bb691e772c2": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "20220601_152157_jpg.rf.df2d190c35c057a713dcfcdfd4f066b9": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Immature": 30
+   }
+  },
+  "20220601_152236_jpg.rf.0fbbf091a3a5065acf6cbf378734fefb": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "20220601_152303_jpg.rf.60c0d96cdcfdbc498fd543d5dc57dec0": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "20220601_152315_jpg.rf.a351c69b8c12499067dd4b96ed440229": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "20220601_152324_jpg.rf.760fc4d8c57677ea9489d9ec92b9399d": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "20220601_152333_jpg.rf.2a463d1e7a4c490440583239233a2b6a": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "20220601_152344_jpg.rf.0713a64b156f9434e7a2ac6da8b5fbd3": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "20220601_152352_jpg.rf.93315bfb93d8038a77336b9e7f1e5d97": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "20220601_152403_jpg.rf.1a919342fa1ec06579b0c72ee2183e7b": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "20220601_152412_jpg.rf.65b2773f9ac27fe787c59719fb638ec0": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "20220601_152424_jpg.rf.123ce98805a715419233b7f8eb7cdf18": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "20220601_152433_jpg.rf.e0b66e95e5331bcef6518595e8655081": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "20220601_152503_jpg.rf.aa208419cdf692a2973d3197a05b36f7": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "20220601_152513_jpg.rf.364709aacc8993320e040f6140e2fc45": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "20220601_152521_jpg.rf.2f82dc713bbc19d5e63819059ab284f0": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "20220601_152530_jpg.rf.5e40118da382bebe08816556123c0272": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "20220601_152537_jpg.rf.2b74e06cde37a816b34c1c5f64ae25c2": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "20220601_153035_jpg.rf.f78a5322615ca0661da46502a83fce5b": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "20220601_153041_jpg.rf.22fcee25d37e8274b741c774e8042d92": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "20220601_153048_jpg.rf.81f0aed24a70bffaecdc8eac0e74bd65": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "20220601_153056_jpg.rf.7730872d595d845410de5574a44920ea": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "20220601_153104_jpg.rf.e4d42e344672a702d4907c69334fb834": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "20220601_153133_jpg.rf.3ace0ef739f0c1753189353cc2ea38b1": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "20220601_153140_jpg.rf.66cce5f28bd4732f0c5eeaa0966abd78": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "20220601_153155_jpg.rf.102eb113a315fd8007d9e63e1e50e76f": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "20220601_153208_jpg.rf.2ceccb673a6ba5af80124461e0454185": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "20220601_153227_jpg.rf.61b5720a543b00a4b70ac2144e051a94": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "20220720_151138_jpg.rf.8815993552f983f8301ffed4592217bc": {
+   "conjunto": "test",
+   "pliegue": null,
+   "lote": "tiempo_015",
+   "subtipos": {
+    "Healthy": 60
+   }
+  },
+  "20220720_151259_jpg.rf.ed97af69ff513c22753c2b54fac84b2e": {
+   "conjunto": "test",
+   "pliegue": null,
+   "lote": "tiempo_015",
+   "subtipos": {
+    "Broken": 60
+   }
+  },
+  "20220720_151334_jpg.rf.8b05d98449b3d6c560c25ebd19771475": {
+   "conjunto": "test",
+   "pliegue": null,
+   "lote": "tiempo_015",
+   "subtipos": {
+    "Healthy": 14,
+    "Weeveled": 42,
+    "Immature": 2,
+    "Fungus": 3,
+    "Damage": 1
+   }
+  },
+  "20220720_151405_jpg.rf.2d7fff7441107eafea386fa55d074f2c": {
+   "conjunto": "test",
+   "pliegue": null,
+   "lote": "tiempo_015",
+   "subtipos": {
+    "Shriveled": 61
+   }
+  },
+  "20220720_151518_jpg.rf.3bc1ff1189368dd2bdcac4202bf7886b": {
+   "conjunto": "test",
+   "pliegue": null,
+   "lote": "tiempo_015",
+   "subtipos": {
+    "Immature": 60
+   }
+  },
+  "20220720_151541_jpg.rf.ebae5a0a61a814970e2c3c10c202eb07": {
+   "conjunto": "test",
+   "pliegue": null,
+   "lote": "tiempo_015",
+   "subtipos": {
+    "Immature": 60
+   }
+  },
+  "20220720_151614_jpg.rf.d6888afa18ad26d7d9de534b1acd2db9": {
+   "conjunto": "test",
+   "pliegue": null,
+   "lote": "tiempo_015",
+   "subtipos": {
+    "Damage": 47,
+    "Healthy": 9,
+    "Shriveled": 3,
+    "Weeveled": 1
+   }
+  },
+  "20220720_151633_jpg.rf.5a09467d0176f6a6ac5a870a78b561ed": {
+   "conjunto": "test",
+   "pliegue": null,
+   "lote": "tiempo_015",
+   "subtipos": {
+    "Damage": 43,
+    "Shriveled": 3,
+    "Healthy": 13,
+    "Broken": 1
+   }
+  },
+  "20220720_153717_jpg.rf.f99171e5710d7684184722c02ad818c3": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_016",
+   "subtipos": {
+    "Healthy": 60
+   }
+  },
+  "20220720_153757_jpg.rf.124ffe4de39dd8d4f3090217890ed645": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_016",
+   "subtipos": {
+    "Broken": 60
+   }
+  },
+  "20220720_153817_jpg.rf.9316b86a9667569f6e08e1945399e0bd": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_016",
+   "subtipos": {
+    "Broken": 60
+   }
+  },
+  "20220720_154255_jpg.rf.4b198e84a4bb62240ea5e423ea3ecbd2": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_016",
+   "subtipos": {
+    "Weeveled": 46,
+    "Healthy": 13,
+    "Immature": 1,
+    "Fungus": 1,
+    "Damage": 1
+   }
+  },
+  "20220720_154313_jpg.rf.655b72882eab48901c9217f8c3591dd0": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_016",
+   "subtipos": {
+    "Weeveled": 40,
+    "Healthy": 15,
+    "Immature": 3,
+    "Fungus": 3,
+    "Damage": 1
+   }
+  },
+  "20220720_154325_jpg.rf.7b477b3aaa64f0ae0fc50e7465dbd513": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_016",
+   "subtipos": {
+    "Shriveled": 61
+   }
+  },
+  "20220720_154339_jpg.rf.fdbd75e17ca29de65b16409f84482cae": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_016",
+   "subtipos": {
+    "Shriveled": 61
+   }
+  },
+  "20220720_163001_jpg.rf.75d10c7178b23d5313aef6e5b4435f40": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_017",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "20220720_163012_jpg.rf.e7303ceac0850cc2466a86140e043a49": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_017",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "20220720_163039_jpg.rf.87529c6e49cb11d277810fb06e6eae89": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_017",
+   "subtipos": {
+    "Broken": 30
+   }
+  },
+  "20220720_163050_jpg.rf.63ceb0fcf82d794cbba8d979e2b7d30a": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_017",
+   "subtipos": {
+    "Weeveled": 27,
+    "Healthy": 4,
+    "Immature": 1
+   }
+  },
+  "20220720_163117_jpg.rf.d9f23d8ae47de75764aef35fdad22f5b": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_017",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "20220720_163138_jpg.rf.0ecc599048478ca08e33fb9e6165f958": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_017",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "20220720_163200_jpg.rf.eaeceacfcf158222950d835d83b0fd1a": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_017",
+   "subtipos": {
+    "Immature": 30
+   }
+  },
+  "20220720_163212_jpg.rf.6d654e7f7b9d42a7fe0eb7fc61cd453c": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_017",
+   "subtipos": {
+    "Immature": 30
+   }
+  },
+  "20220720_163225_jpg.rf.c1ea0850bb8819625d343f6a4b51ee70": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_017",
+   "subtipos": {
+    "Damage": 26,
+    "Healthy": 4
+   }
+  },
+  "20220720_163237_jpg.rf.b238df7427fd29884a19e0c83d289d71": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_017",
+   "subtipos": {
+    "Damage": 26,
+    "Healthy": 4
+   }
+  },
+  "DSC_0064_JPG_jpg.rf.39b7fc5232e878b5f34e6952e4b8285e": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "contador_DSC_000",
+   "subtipos": {
+    "Fungus": 36
+   }
+  },
+  "DSC_0065_JPG_jpg.rf.3cf9574a17a8dd113b053eb866fd03d5": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "contador_DSC_000",
+   "subtipos": {
+    "Fungus": 36
+   }
+  },
+  "DSC_0066_JPG_jpg.rf.94ce9640e0a34efec068cf65d389197d": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "contador_DSC_000",
+   "subtipos": {
+    "Fungus": 29
+   }
+  },
+  "DSC_0067_JPG_jpg.rf.e9ea6570a9475d63a12bb9dcc3991a17": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "contador_DSC_000",
+   "subtipos": {
+    "Fungus": 29
+   }
+  },
+  "DSC_0068_JPG_jpg.rf.f279b963a7bcc7ed01826211dfe5c7c5": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "contador_DSC_000",
+   "subtipos": {
+    "Fungus": 27
+   }
+  },
+  "DSC_0071_JPG_jpg.rf.be857b097f2af59ce06cc66064e3040e": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "contador_DSC_000",
+   "subtipos": {
+    "Fungus": 31
+   }
+  },
+  "DSC_0072_JPG_jpg.rf.dc4ac692431e7f0e620386aaa5705443": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "contador_DSC_000",
+   "subtipos": {
+    "Fungus": 31
+   }
+  },
+  "IMG_20220502_154147_jpg.rf.ea91eccfd52d3d8899a0020091daed24": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_000",
+   "subtipos": {
+    "Immature": 19,
+    "Shriveled": 14,
+    "Damage": 12,
+    "Healthy": 40,
+    "Fungus": 4,
+    "Broken": 6,
+    "Weeveled": 3
+   }
+  },
+  "IMG_20220502_154850_jpg.rf.2342cf140a397f26e634fe82cc9d6db7": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_000",
+   "subtipos": {
+    "Healthy": 42,
+    "Damage": 9,
+    "Immature": 20,
+    "Broken": 9,
+    "Shriveled": 5,
+    "Fungus": 1
+   }
+  },
+  "IMG_20220502_155454_jpg.rf.6b6e816abd00bde52b6d828b8ccc31fe": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_000",
+   "subtipos": {
+    "Healthy": 41,
+    "Fungus": 3,
+    "Weeveled": 4,
+    "Damage": 11,
+    "Immature": 19,
+    "Shriveled": 3,
+    "Broken": 10
+   }
+  },
+  "IMG_20220502_161510_jpg.rf.7bb9f78404e17fc29eab041daad96dfb": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "tiempo_002",
+   "subtipos": {
+    "Healthy": 42,
+    "Damage": 7,
+    "Immature": 21,
+    "Shriveled": 4,
+    "Broken": 9,
+    "Fungus": 2,
+    "Weeveled": 7
+   }
+  },
+  "IMG_20220601_105058_jpg.rf.2145be82ba5cb992333f6b9b4598c649": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_007",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_20220601_105507_jpg.rf.79458e228a6b4097a026aa4c65525109": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_007",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_20220601_105540_jpg.rf.a6e3343f6f23595250f496898ebc6e32": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_007",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_20220601_105625_jpg.rf.2391b56c61ffa9c5170c40886bdc1142": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_007",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_20220601_105707_jpg.rf.7c3720189b3d100c7b95c2455db5494f": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_007",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_20220601_105909_jpg.rf.169bc98158a74662804be6d439182ff0": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_007",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_20220601_110030_jpg.rf.df8bf404fe4ae383e22c45ab18ed782c": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_007",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_20220601_110111_jpg.rf.686dda0801c33090ec8deb4f02428510": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_007",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_20220601_110146_jpg.rf.54989613ef81db2655d0481d8aaab339": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_007",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_20220601_110355_jpg.rf.d0654dde92aecbb64ea7ed607999fc02": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_007",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_20220601_110426_jpg.rf.22f28d1dcf18c940906af51a7a18a535": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_007",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_20220601_110459_jpg.rf.736ab3ce52fc41e97bb6ee4c3509442c": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_007",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_20220601_110551_jpg.rf.86e766a0b99d25b13b4c5b6a57fa3804": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_007",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_20220601_110746_jpg.rf.bf97df43cb0fa76b46218b21dec7d99c": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_007",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_20220601_110818_jpg.rf.0dda1b5a961cfca74de5aa8c380d0e1e": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_007",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_20220601_110849_jpg.rf.94eb2c10a3b7173f4d24d2b9b6a49286": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_007",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_20220601_110917_jpg.rf.2210422f825247000c666c7fbd6970ba": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_007",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_20220601_111108_jpg.rf.ffd10b1dd595c099114b5349a6fc3745": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_007",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "IMG_20220601_111140_jpg.rf.f32b5ceb753e459d61b94058c204586c": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_007",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "IMG_20220601_111220_jpg.rf.507d3a5e875fc72b88bd7df29d1314d7": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_007",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "IMG_20220601_111302_jpg.rf.7d6273b93d9c100e15af4423eefff957": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_007",
+   "subtipos": {
+    "Shriveled": 31
+   }
+  },
+  "IMG_20220601_111332_jpg.rf.3ad87ce54bd4b0ec9ee8223617b93cea": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_007",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "IMG_20220601_111413_jpg.rf.0d2a26069e0a9edc1f817dd28a42ff07": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_007",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "IMG_20220601_111452_jpg.rf.8266945f1b1f49365b6c0dce5fda23d1": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_007",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "IMG_20220601_111521_jpg.rf.61be8a36603abe3ea041b0abf32ad9e8": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_007",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "IMG_20220601_111549_jpg.rf.1c86af607be07724132a513a0a337c4b": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_007",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "IMG_20220601_111615_jpg.rf.e0d1348031d5e222532001e06d131205": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_007",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "IMG_20220601_111830_jpg.rf.5867e8c788eb6057d679bb2d0a02a1b1": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_007",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "IMG_20220601_111907_jpg.rf.89b15a94ef4acbcc8272bef3219aa7aa": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_007",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "IMG_20220601_111935_jpg.rf.bc9e65b5cd16f2dd76b98dba9c39bc6a": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_007",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "IMG_20220601_112015_jpg.rf.2b54022f86982f60375aa1e9bf7f9377": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_007",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "IMG_20220601_112051_jpg.rf.82d86ff085546eff168990f4b97f32cb": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_007",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "IMG_20220601_113150_jpg.rf.5d3397c0c75ca4cd4795b5ae27d9558e": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "tiempo_008",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "IMG_20220601_113212_jpg.rf.1eb7c0df575206856ef0cbea5f23a5ea": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "tiempo_008",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "IMG_20220601_113240_jpg.rf.c573dd8ce47d3658e3aab1d18480b3c9": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "tiempo_008",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "IMG_20220601_113313_jpg.rf.bc617e0efa603b4c31c7610419c48b76": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "tiempo_008",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "IMG_20220601_113357_jpg.rf.4ca36b16156dd75f3a2946c95ebeb550": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "tiempo_008",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "IMG_20220601_113453_jpg.rf.5014f30a5e0d67261cc9b9e4315748f2": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "tiempo_008",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "IMG_20220601_113632_jpg.rf.a3a5f1f037158f398ef394b47d30e469": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "tiempo_008",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "IMG_20220601_113657_jpg.rf.b208090a9c182f2c25097ed913b6e2c5": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "tiempo_008",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "IMG_20220601_113756_jpg.rf.808a766d6088e027dcf4d35c6f60b787": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "tiempo_008",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "IMG_20220601_113823_jpg.rf.5bce658764ccc0bc0ce2e7e230cdab5b": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "tiempo_008",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "IMG_20220601_150138_jpg.rf.f4a3927643669fcb52991452a3ff64b3": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_012",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_20220601_150200_jpg.rf.fc4856daba3c6189c5d59a6c55a53aae": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_012",
+   "subtipos": {
+    "Healthy": 29
+   }
+  },
+  "IMG_20220601_150326_jpg.rf.c789092477344d594d0d53ef7e84ae12": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_012",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "IMG_20220601_150337_jpg.rf.9dd8efd664ddb6cddb4e4cf7500e4e46": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_012",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "IMG_20220601_150349_jpg.rf.e2bea371170185c155e29c8a8e5045a7": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_012",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "IMG_20220601_150400_jpg.rf.4fdc1c9799dcbeb5e68a82beed8dbbc1": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_012",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "IMG_20220601_150409_jpg.rf.a405938b429700fbe6bd05d2a294d040": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_012",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "IMG_20220601_150418_jpg.rf.253c3a0f53315531cdfe97fdb0289c5a": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_012",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "IMG_20220601_150431_jpg.rf.9ed4e8e67936e7bbd2b616e50acef035": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_012",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "IMG_20220601_150441_jpg.rf.22309dbdc7143b7efaddad295c3a9c22": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_012",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "IMG_20220601_150449_jpg.rf.ecde8ed388c8c00ef870143bf26f4c00": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_012",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "IMG_20220601_150458_jpg.rf.ee18df20b27945fcbb818d26adc7ff74": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_012",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "IMG_20220601_150519_jpg.rf.b8f67ebe8f247a16a6a1486287bffec0": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_012",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "IMG_20220601_150527_jpg.rf.a164c4f6d1d3ef1187c8a90e5eae51c6": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_012",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "IMG_20220601_150536_jpg.rf.eb656823272d2facb69b68599f08f9f7": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_012",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "IMG_20220601_150545_jpg.rf.b3caa56be28b9225d292e7aa82769f2b": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_012",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "IMG_20220601_150557_jpg.rf.614e795ba09a9d4b9e81f760f38d7972": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_012",
+   "subtipos": {
+    "Shriveled": 29
+   }
+  },
+  "IMG_20220601_151246_jpg.rf.d75613b044f1a76e8d6e94f69e594e81": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "IMG_20220601_151301_jpg.rf.daf8d630199d69ef1a9ff69bce4f5bd9": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "IMG_20220601_151317_jpg.rf.f7db8fe8ca7e2d889c7380cf91c8484a": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "IMG_20220601_151330_jpg.rf.7126abf1e10665d55dda9cb32ff3cc5f": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "IMG_20220601_151338_jpg.rf.cd95e704f70718ff45eb4ea6a8925dd7": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "IMG_20220601_151353_jpg.rf.771db3a8c1a8f18ecfb26cc4c6b07450": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "IMG_20220601_151401_jpg.rf.2e1ff0066ac186090baf4c7d7ef9bc67": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "IMG_20220601_151417_jpg.rf.c96464ae0617e6607b17f1a50eda974f": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "IMG_20220601_151434_jpg.rf.3b742ae05420a56c098d81916d09320c": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "IMG_20220601_151508_jpg.rf.c8afc86cbe74d0a3250e6fb08d1cb831": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "IMG_20220720_143952_jpg.rf.bd62882ded11df5f652e6e0cc790ecb7": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "tiempo_014",
+   "subtipos": {
+    "Broken": 60
+   }
+  },
+  "IMG_20220720_144046_jpg.rf.681285754f279db113f85e948c8a3d39": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "tiempo_014",
+   "subtipos": {
+    "Weeveled": 48,
+    "Healthy": 11,
+    "Immature": 1,
+    "Fungus": 2
+   }
+  },
+  "IMG_20220720_144139_jpg.rf.31d5cff77131e758362d7f86cfdc1307": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "tiempo_014",
+   "subtipos": {
+    "Immature": 60
+   }
+  },
+  "IMG_20220720_144225_jpg.rf.a96278e6d28dfc5b4541881e289a9fe1": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "tiempo_014",
+   "subtipos": {
+    "Damage": 55,
+    "Healthy": 2,
+    "Shriveled": 2,
+    "Broken": 1
+   }
+  },
+  "IMG_20220720_144250_jpg.rf.96af9cca1ce6b100c5b8a74b687a6aa1": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "tiempo_014",
+   "subtipos": {
+    "Damage": 50,
+    "Weeveled": 2,
+    "Shriveled": 2,
+    "Healthy": 6
+   }
+  },
+  "IMG_20220720_144602_jpg.rf.de38b48edf0d47d268a6ea0352db7b83": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "tiempo_014",
+   "subtipos": {
+    "Healthy": 60
+   }
+  },
+  "IMG_20220720_144628_jpg.rf.94ebcd84514124d8a5dd4c1aa4c2d9c4": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "tiempo_014",
+   "subtipos": {
+    "Healthy": 60
+   }
+  },
+  "IMG_20220720_144800_jpg.rf.4b2208fa846a7113b98a13a43faff3fd": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "tiempo_014",
+   "subtipos": {
+    "Weeveled": 39,
+    "Immature": 1,
+    "Healthy": 20,
+    "Damage": 1,
+    "Fungus": 1
+   }
+  },
+  "IMG_20220720_144949_jpg.rf.d284fbec14ec210cbdc516a10a85d075": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "tiempo_014",
+   "subtipos": {
+    "Immature": 60
+   }
+  },
+  "IMG_20220720_145010_jpg.rf.be9b999c4a3fab08f1061dca516398b5": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "tiempo_014",
+   "subtipos": {
+    "Damage": 46,
+    "Healthy": 8,
+    "Immature": 3,
+    "Shriveled": 2,
+    "Broken": 1
+   }
+  },
+  "IMG_20220720_145033_jpg.rf.d48a74b078907cf894aa24cdbb2851da": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "tiempo_014",
+   "subtipos": {
+    "Weeveled": 2,
+    "Damage": 46,
+    "Healthy": 7,
+    "Shriveled": 4,
+    "Broken": 1
+   }
+  },
+  "IMG_20220720_163427_jpg.rf.8e92d527ce44b1a25bcb989010325d4a": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_017",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_20220720_163504_jpg.rf.627f34b3c862523767011d06b6280cb3": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_017",
+   "subtipos": {
+    "Broken": 30
+   }
+  },
+  "IMG_20220720_163517_jpg.rf.46085d6acebd1802e60b1466bd869e97": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_017",
+   "subtipos": {
+    "Broken": 30
+   }
+  },
+  "IMG_20220720_163532_jpg.rf.b4c09f8092ef6634dfa96a03c5f62de9": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_017",
+   "subtipos": {
+    "Weeveled": 25,
+    "Healthy": 6,
+    "Immature": 1
+   }
+  },
+  "IMG_20220720_163547_jpg.rf.c89e7d82b4db1a05156d060d4b3c6d24": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_017",
+   "subtipos": {
+    "Weeveled": 24,
+    "Healthy": 7,
+    "Immature": 1
+   }
+  },
+  "IMG_20220720_163607_jpg.rf.3bc479d4a2f763089d0d3cd5c59a80f0": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_017",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "IMG_20220720_163652_jpg.rf.5ddfec854cec9462069c5a162c1ba25d": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_017",
+   "subtipos": {
+    "Immature": 30
+   }
+  },
+  "IMG_20220720_163714_jpg.rf.d4bd83b99edcb5b9be401eef4c6738c3": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_017",
+   "subtipos": {
+    "Immature": 30
+   }
+  },
+  "IMG_20220720_163757_jpg.rf.d4bf553959d6077ac739f64c0df6022d": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_017",
+   "subtipos": {
+    "Healthy": 4,
+    "Damage": 26
+   }
+  },
+  "IMG_5166_JPG_jpg.rf.d966ee76b0c637882b7bdfc3d393028e": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "contador_IMG_000",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_5167_JPG_jpg.rf.7a4868c288ba7426ac76af1c7f84c716": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "contador_IMG_000",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_5170_JPG_jpg.rf.1a786b475763667d729fdf1bbfb2a0ab": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "contador_IMG_000",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_5171_JPG_jpg.rf.847e339fcc7acf9d690603174b667ba9": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "contador_IMG_000",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_5172_JPG_jpg.rf.1b67a71db32b2d15a632f1176a90cbdb": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "contador_IMG_000",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_5174_JPG_jpg.rf.8d98c8dc212f10e8406503d1f22f873e": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "contador_IMG_000",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_5175_JPG_jpg.rf.9440e5846b955f8065d30de84ad62a56": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "contador_IMG_000",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_5177_JPG_jpg.rf.3703517fb3dade668f4403018aa5ba25": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "contador_IMG_000",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_5178_JPG_jpg.rf.4617cdc769197dc48be615899b0b6c6b": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "contador_IMG_000",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_5180_JPG_jpg.rf.0c096e75a84f992e12c82ee2fe02f161": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "contador_IMG_000",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_5181_JPG_jpg.rf.15f8371bba182d06a4f2a9704b5308a4": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "contador_IMG_000",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_5182_JPG_jpg.rf.f75b6df832087162091dd6603da17fc3": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "contador_IMG_000",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_5183_JPG_jpg.rf.f498cb5808f2b67ca51de652c74e79c3": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "contador_IMG_000",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_5186_JPG_jpg.rf.e0b41d94d53c245479251d9746990d4e": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "contador_IMG_000",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_5187_JPG_jpg.rf.045bb053a0fd786e9c16027e24262bbd": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "contador_IMG_000",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_5189_JPG_jpg.rf.8ed9d885905307452d433a8388a9315b": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "contador_IMG_000",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_5190_JPG_jpg.rf.c4284d7b5d59431704b9c32901352a7f": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "contador_IMG_000",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_5191_JPG_jpg.rf.c62f294057a1fccf386c342d8faa2874": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "contador_IMG_000",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_5192_JPG_jpg.rf.d5a2ca86f19115940a5a63560e1fe0e7": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "contador_IMG_000",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_5195_JPG_jpg.rf.752e751d06ff3ad1940313a303908ce2": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "contador_IMG_000",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_5196_JPG_jpg.rf.f8f6a138304c20284fed4e0cb76135aa": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "contador_IMG_000",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "IMG_5197_JPG_jpg.rf.758170ad9bf3c36cf78487ba16c2465e": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "contador_IMG_000",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "IMG_5198_JPG_jpg.rf.6e1cabd7394c398781e7363c697ceeb8": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "contador_IMG_000",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "IMG_5199_JPG_jpg.rf.2a6bcc9e7b852aa526066ffdca2a8a36": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "contador_IMG_000",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "IMG_5200_JPG_jpg.rf.c48297cb5e06a8b95e330d41da831a38": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "contador_IMG_000",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "IMG_5201_JPG_jpg.rf.a0bf8713b7bb7ad955828f3ef8787d1e": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "contador_IMG_000",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "IMG_5202_JPG_jpg.rf.cf6022a31f9f9aeca50fddf4f139f3b0": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "contador_IMG_000",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "IMG_5203_JPG_jpg.rf.214b01ebb1f3a50d230bbe0aa0109462": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "contador_IMG_000",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "IMG_5204_JPG_jpg.rf.a326df6241619ece44aaa7052119d0dc": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "contador_IMG_000",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "IMG_5205_JPG_jpg.rf.7a0abc2dcb4448e481160c27cca9d113": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "contador_IMG_000",
+   "subtipos": {
+    "Shriveled": 31
+   }
+  },
+  "IMG_5206_JPG_jpg.rf.bc6faeb66653abbb9c5176cfbc13c239": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "contador_IMG_000",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "IMG_5207_JPG_jpg.rf.2ca5d5d9d515e89a3dbd37a7905a0f27": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "contador_IMG_000",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "IMG_5208_JPG_jpg.rf.adc37e71e81f658f4b4a9d0c893281b9": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "contador_IMG_000",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "IMG_5209_JPG_jpg.rf.c9a3bc9d945dd67438b02f0947477453": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "contador_IMG_000",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "IMG_5210_JPG_jpg.rf.1790b084fb5015430dead5a6530453e4": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "contador_IMG_000",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "IMG_5243_JPG_jpg.rf.2c0279a1aa37db26fef55db43584da13": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "contador_IMG_001",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "IMG_5244_JPG_jpg.rf.1b4f3632412be11b2308a35d4da0a781": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "contador_IMG_001",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "IMG_5245_JPG_jpg.rf.07a55749bfe57b9964f769e1e60c935a": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "contador_IMG_001",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "IMG_5246_JPG_jpg.rf.ddba0d3a54e78d8c8895109ef72dbea7": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "contador_IMG_001",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "IMG_5249_JPG_jpg.rf.8b0e83b632728829da80e3d417a9e0ce": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "contador_IMG_001",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "IMG_5251_JPG_jpg.rf.4eb1acd8e038708990e25bcc33cb321d": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "contador_IMG_001",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "IMG_5253_JPG_jpg.rf.15ff8078bb04c8a73ceace97b2f8ff6d": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "contador_IMG_001",
+   "subtipos": {
+    "Fungus": 26,
+    "Healthy": 4
+   }
+  },
+  "IMG_5255_JPG_jpg.rf.09d9306d1f1927c7e444e143d14fea0e": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "contador_IMG_001",
+   "subtipos": {
+    "Fungus": 28,
+    "Healthy": 2
+   }
+  },
+  "IMG_5256_JPG_jpg.rf.cde532f5815e8fd2526038d89c289852": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "contador_IMG_001",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "IMG_5258_JPG_jpg.rf.379ccd170eb4e965fc4ef7dcabb9a7f9": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "contador_IMG_001",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_5259_JPG_jpg.rf.49aaf42ce13ad19f91420a483f7ada57": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "contador_IMG_001",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_5261_JPG_jpg.rf.cf477938ac257c5f3e008d60302f0151": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "contador_IMG_001",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_5262_JPG_jpg.rf.c1adc29503e719f18a3c6bd181c3acd8": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "contador_IMG_001",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_5263_JPG_jpg.rf.55a88c0bcd091edb742eab2981061111": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "contador_IMG_001",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_5264_JPG_jpg.rf.04a1e5a6aa1f085f578217559d3b0b25": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "contador_IMG_001",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_5265_JPG_jpg.rf.7db787982e9bf69d17d12aed1dd45d8f": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "contador_IMG_001",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_5266_JPG_jpg.rf.ecfd6574d05018a543f08d7a50c2f020": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "contador_IMG_001",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_5267_JPG_jpg.rf.69f3cefe8f208c9c534c701a88df84ec": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "contador_IMG_001",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_5268_JPG_jpg.rf.a6ea350fc9606d86ae6f66e56e48a97f": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "contador_IMG_001",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_5270_JPG_jpg.rf.4865bfd44ba2b1e470c1d9a509b90e11": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "contador_IMG_001",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_5271_JPG_jpg.rf.8e3066da2861940826531a66f11ed4ce": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "contador_IMG_001",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_5273_JPG_jpg.rf.50395831ed28fd81a0a1bdafb1ae0114": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "contador_IMG_001",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_5275_JPG_jpg.rf.312b9427613289a70760c8869ec30157": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "contador_IMG_001",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_5276_JPG_jpg.rf.6ef2d3ff973118c73caa2e006d38408c": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "contador_IMG_001",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_5277_JPG_jpg.rf.1699415b2e017b21e4057c327ea1389a": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "contador_IMG_001",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_5278_JPG_jpg.rf.2106fb9ea8a0879e9a79c5c00f5e7e4a": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "contador_IMG_001",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_5279_JPG_jpg.rf.a1affcfd5e2f348e4d1d17feb1eed725": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "contador_IMG_001",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_5280_JPG_jpg.rf.59c9c83172467f67e586ad2322b89bb5": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "contador_IMG_001",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_5281_JPG_jpg.rf.8f2581d4359d1f65c2033a9475ffda2f": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "contador_IMG_001",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_5282_JPG_jpg.rf.e506cb757062040cb5750048d4222eac": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "contador_IMG_001",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_5285_JPG_jpg.rf.a6f15a377b21e4db1510751c791cb9b5": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "contador_IMG_001",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_5287_JPG_jpg.rf.26254f582e22dbdaaedb759a9ca3ca58": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "contador_IMG_001",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_5288_JPG_jpg.rf.4557746ec2bed97355a4ec7be2da72ff": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "contador_IMG_001",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "IMG_5289_JPG_jpg.rf.7cf1143410db9a31e375dbe413b2a30a": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "contador_IMG_001",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "IMG_5290_JPG_jpg.rf.5e83c38d68cee78a76350026ccaa91b7": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "contador_IMG_001",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "IMG_5291_JPG_jpg.rf.f6e53a5aeefbff3291d3f17077f7d525": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "contador_IMG_001",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "IMG_5292_JPG_jpg.rf.d702a75725776cb58eb626ce356f5ad2": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "contador_IMG_001",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "IMG_5293_JPG_jpg.rf.6cfd0083ef0953cfcd26a11a3023bed0": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "contador_IMG_001",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "IMG_5294_JPG_jpg.rf.133a870199699fd35deed1ca3bbf50ec": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "contador_IMG_001",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "IMG_5295_JPG_jpg.rf.ddb15a9fc307cbd8ef9f0602ab9c3afd": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "contador_IMG_001",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "IMG_5296_JPG_jpg.rf.df9ff95c7bda72e4973c008c573e7014": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "contador_IMG_001",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "IMG_5297_JPG_jpg.rf.93dcd0e0b96627070ee54902ad7f879c": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "contador_IMG_001",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "IMG_5298_JPG_jpg.rf.22307aeec83388371adf445e61f3f6b1": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "contador_IMG_001",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "IMG_5299_JPG_jpg.rf.1f4c6116df3e12dbe559508d659c5318": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "contador_IMG_001",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "IMG_5300_JPG_jpg.rf.68c7411790c996a42fbeb15ba2e20d0a": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "contador_IMG_001",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "IMG_5301_JPG_jpg.rf.d7ab59e06acb2743ccb363c996228d89": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "contador_IMG_001",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "IMG_5302_JPG_jpg.rf.ed774249f8a8ecd3fd275212e767c03f": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "contador_IMG_001",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "IMG_5335_JPG_jpg.rf.3b9b242fe99bbe67cf0821a0da1cfa65": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "contador_IMG_002",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "IMG_5337_JPG_jpg.rf.a53b48021eb2e0fbeb081ba96cddd4e2": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "contador_IMG_002",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "IMG_5338_JPG_jpg.rf.d9ad24a858cbe70c5b5d0364e3efb2c2": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "contador_IMG_002",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "IMG_5340_JPG_jpg.rf.c3d7e544354d0db8162c7ace8f0a557b": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "contador_IMG_002",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "IMG_5341_JPG_jpg.rf.ad6707e659f239bf724173443ae97fa0": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "contador_IMG_002",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "IMG_5343_JPG_jpg.rf.21d1936fbef274876e82a7a766adcd9d": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "contador_IMG_002",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "IMG_5344_JPG_jpg.rf.51e1ebffbc0fb3b6028448d78ede450a": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "contador_IMG_002",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "IMG_5345_JPG_jpg.rf.c0974deac1b6c664405cad4fb38ddcc3": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "contador_IMG_002",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "IMG_5346_JPG_jpg.rf.f795ce7b704b6682327e8ab79f77fe91": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "contador_IMG_002",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "IMG_6168_JPG_jpg.rf.912e94b1c11e285e4da3360380d1a08d": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "contador_IMG_003",
+   "subtipos": {
+    "Healthy": 60
+   }
+  },
+  "IMG_6169_JPG_jpg.rf.d15a61dd24284ccef4f7fe8d6be904a2": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "contador_IMG_003",
+   "subtipos": {
+    "Healthy": 60
+   }
+  },
+  "IMG_6170_JPG_jpg.rf.eaaa591b4d0979735b571666d4d855c4": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "contador_IMG_003",
+   "subtipos": {
+    "Broken": 60
+   }
+  },
+  "IMG_6172_JPG_jpg.rf.d3ee3ce35452fd66619df2a7fc859492": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "contador_IMG_003",
+   "subtipos": {
+    "Immature": 2,
+    "Weeveled": 46,
+    "Healthy": 12,
+    "Damage": 2
+   }
+  },
+  "IMG_6173_JPG_jpg.rf.c9a82a474a9b2760a917c0c92f698e4e": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "contador_IMG_003",
+   "subtipos": {
+    "Weeveled": 39,
+    "Fungus": 2,
+    "Damage": 2,
+    "Healthy": 18,
+    "Immature": 1
+   }
+  },
+  "IMG_6174_JPG_jpg.rf.f214651e07b9e72307be87f24d4d557b": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "contador_IMG_003",
+   "subtipos": {
+    "Shriveled": 61
+   }
+  },
+  "IMG_6175_JPG_jpg.rf.a84d4eb647a34f078b204dc8d0ca89ff": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "contador_IMG_003",
+   "subtipos": {
+    "Shriveled": 61
+   }
+  },
+  "IMG_6176_JPG_jpg.rf.c512e25bc06898c18c0d2e095cc27912": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "contador_IMG_003",
+   "subtipos": {
+    "Immature": 60
+   }
+  },
+  "IMG_6177_JPG_jpg.rf.c9394beefce12867dac0b658d7171b6d": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "contador_IMG_003",
+   "subtipos": {
+    "Immature": 60
+   }
+  },
+  "IMG_6179_JPG_jpg.rf.9e6c8a7463ed4de18f70640e995e8833": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "contador_IMG_003",
+   "subtipos": {
+    "Damage": 49,
+    "Shriveled": 4,
+    "Healthy": 5,
+    "Weeveled": 1,
+    "Immature": 1
+   }
+  },
+  "IMG_6185_JPG_jpg.rf.159e9e795a2419bbdb7a4e40049c37f7": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "contador_IMG_004",
+   "subtipos": {
+    "Healthy": 60
+   }
+  },
+  "IMG_6187_JPG_jpg.rf.0a807f269e29ac673b5264d1e6ae4c20": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "contador_IMG_004",
+   "subtipos": {
+    "Broken": 60
+   }
+  },
+  "IMG_6188_JPG_jpg.rf.ef1eaa6f0efc92ac70c5a8434d202f95": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "contador_IMG_004",
+   "subtipos": {
+    "Broken": 60
+   }
+  },
+  "IMG_6189_JPG_jpg.rf.15d8afd410e0e5421b01648180d37f83": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "contador_IMG_004",
+   "subtipos": {
+    "Healthy": 18,
+    "Weeveled": 38,
+    "Damage": 1,
+    "Fungus": 3,
+    "Immature": 1,
+    "Shriveled": 1
+   }
+  },
+  "IMG_6190_JPG_jpg.rf.0cef46efb2ffd4e76067930b39075e6a": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "contador_IMG_004",
+   "subtipos": {
+    "Healthy": 17,
+    "Weeveled": 38,
+    "Fungus": 3,
+    "Shriveled": 1,
+    "Immature": 2,
+    "Damage": 1
+   }
+  },
+  "IMG_6191_JPG_jpg.rf.6c1d91c4a54ed64225b2f04c350c1b55": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "contador_IMG_004",
+   "subtipos": {
+    "Shriveled": 61
+   }
+  },
+  "IMG_6192_JPG_jpg.rf.16dcfe6dda5d8ea6500a93815cd19235": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "contador_IMG_004",
+   "subtipos": {
+    "Shriveled": 61
+   }
+  },
+  "IMG_6195_JPG_jpg.rf.e47c89dc598522c05f4e8583aed8caf5": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "contador_IMG_004",
+   "subtipos": {
+    "Damage": 54,
+    "Healthy": 3,
+    "Broken": 1,
+    "Shriveled": 2
+   }
+  },
+  "IMG_6207_JPG_jpg.rf.5b9679f248e7d34695a9e38724e33f96": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "contador_IMG_005",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_6208_JPG_jpg.rf.53f540ef12d0236648eab605240114c4": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "contador_IMG_005",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_6209_JPG_jpg.rf.7f050202d7bd163b55c45df1b01a56c1": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "contador_IMG_005",
+   "subtipos": {
+    "Broken": 30
+   }
+  },
+  "IMG_6210_JPG_jpg.rf.9d4dbbb3427fab0799c4bf533bfcc75b": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "contador_IMG_005",
+   "subtipos": {
+    "Broken": 30
+   }
+  },
+  "IMG_6213_JPG_jpg.rf.fdc11369c5755e1bad789fb09ebbde25": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "contador_IMG_005",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "IMG_6214_JPG_jpg.rf.311e4639b95822882a5a913c03446097": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "contador_IMG_005",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "IMG_6215_JPG_jpg.rf.51baeb3a121c600a185cc36cc322c45f": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "contador_IMG_005",
+   "subtipos": {
+    "Immature": 30
+   }
+  },
+  "IMG_6216_JPG_jpg.rf.71fdd41d78e01470d82e8df89d894f00": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "contador_IMG_005",
+   "subtipos": {
+    "Immature": 30
+   }
+  },
+  "IMG_6218_JPG_jpg.rf.eaf143d22e626520b2af6c8382b4305d": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "contador_IMG_005",
+   "subtipos": {
+    "Healthy": 3,
+    "Damage": 27
+   }
+  },
+  "20220601_115915_jpg.rf.900dc708302fc312ac83e2d827709857": {
+   "conjunto": "test",
+   "pliegue": null,
+   "lote": "tiempo_010",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "20220601_120143_jpg.rf.1da4a99a0127707367d2893e060d6a9c": {
+   "conjunto": "test",
+   "pliegue": null,
+   "lote": "tiempo_010",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "20220601_120522_jpg.rf.37c99e79a40e3288765a1394924282a2": {
+   "conjunto": "test",
+   "pliegue": null,
+   "lote": "tiempo_010",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "20220601_120811_jpg.rf.b7299f42ec4505655fcc11603e8bc69b": {
+   "conjunto": "test",
+   "pliegue": null,
+   "lote": "tiempo_010",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "20220601_120833_jpg.rf.abd4b22589866b9bdb6acef9a8c2d16e": {
+   "conjunto": "test",
+   "pliegue": null,
+   "lote": "tiempo_010",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "20220601_121147_jpg.rf.859ef99101d4042c52eb28ffb1e8bfed": {
+   "conjunto": "test",
+   "pliegue": null,
+   "lote": "tiempo_010",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "20220601_121358_jpg.rf.0be9f9ae221c18143b0009c099f0594e": {
+   "conjunto": "test",
+   "pliegue": null,
+   "lote": "tiempo_010",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "20220601_125107_jpg.rf.c1fcaf54dd6974e1729f9b205f776ea3": {
+   "conjunto": "test",
+   "pliegue": null,
+   "lote": "tiempo_011",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "20220601_125206_jpg.rf.a52702ce1a3b527f1ad806ce0b257133": {
+   "conjunto": "test",
+   "pliegue": null,
+   "lote": "tiempo_011",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "20220601_125522_jpg.rf.afca2ce6cf7ff00a7eae14f23846efa7": {
+   "conjunto": "test",
+   "pliegue": null,
+   "lote": "tiempo_011",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "20220601_151712_jpg.rf.4046b4e726daa8098e9fee35a89bee89": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "20220601_151817_jpg.rf.1c8a591782f55696aef7c1f0b95a400d": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "20220601_151825_jpg.rf.19e9f787dabf514c351581cd56bc2ce5": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "20220601_151913_jpg.rf.544ec2ea982a0745c5994cfacdd24319": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "20220601_152027_jpg.rf.25c07228f7de2fe5642aca90657a7b75": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "20220601_152124_jpg.rf.dac77a2c0ebbfcf155205dcbb48cff3c": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "20220601_152206_jpg.rf.d3ac16e43bbc353798c43b31fb95cf4a": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Healthy": 31
+   }
+  },
+  "20220601_152229_jpg.rf.359a31e4028918f6e4032f1e3b3eecd0": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "20220601_153125_jpg.rf.39cc6f76da8f9fc0bbe81acc3402729b": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "20220601_153148_jpg.rf.da44d0f66f7287e4c5c4bf998b09617f": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "20220601_153255_jpg.rf.2b70fdacc6919f432d36e6049f0ca498": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "20220720_151237_jpg.rf.29ebf783e4d017638c4df5ae1dc6039d": {
+   "conjunto": "test",
+   "pliegue": null,
+   "lote": "tiempo_015",
+   "subtipos": {
+    "Broken": 60
+   }
+  },
+  "20220720_151311_jpg.rf.a794a01f39f5fade4b5be65076c74628": {
+   "conjunto": "test",
+   "pliegue": null,
+   "lote": "tiempo_015",
+   "subtipos": {
+    "Weeveled": 44,
+    "Healthy": 13,
+    "Fungus": 3,
+    "Damage": 1,
+    "Shriveled": 1
+   }
+  },
+  "20220720_151442_jpg.rf.5d16b57218f207b573950d480208749b": {
+   "conjunto": "test",
+   "pliegue": null,
+   "lote": "tiempo_015",
+   "subtipos": {
+    "Shriveled": 62
+   }
+  },
+  "20220720_153736_jpg.rf.fd324b48cad1f8e6e6631a225b6d938a": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_016",
+   "subtipos": {
+    "Healthy": 60
+   }
+  },
+  "20220720_154445_jpg.rf.6454af3e243cf077206223aaf0a5a6ff": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_016",
+   "subtipos": {
+    "Immature": 60
+   }
+  },
+  "20220720_163026_jpg.rf.aaebdde99bce8019959d6c24be998864": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_017",
+   "subtipos": {
+    "Broken": 30
+   }
+  },
+  "DSC_0070_JPG_jpg.rf.dc296ee4cc9013c1d185041e8931631e": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "contador_DSC_000",
+   "subtipos": {
+    "Fungus": 31
+   }
+  },
+  "IMG_20220502_160901_jpg.rf.4407f8595f40535cb68c69b9fc9b84df": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_001",
+   "subtipos": {
+    "Healthy": 37,
+    "Weeveled": 8,
+    "Immature": 26,
+    "Shriveled": 8,
+    "Damage": 15,
+    "Fungus": 1,
+    "Broken": 2
+   }
+  },
+  "IMG_20220601_104951_jpg.rf.48b35b5c118ed74f045f20581942430a": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_007",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_20220601_105018_jpg.rf.ad926d088f3e25b353e5e2a4f09dfd01": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_007",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_20220601_105131_jpg.rf.2ca141e6261663d8d0716e497d791a99": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_007",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_20220601_105203_jpg.rf.b2ce2a3982b52c80c0175c424e2cb5cb": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_007",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_20220601_105307_jpg.rf.b275e51dc828bb87b48de5b498f88c16": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_007",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_20220601_105343_jpg.rf.cd0153efed1d0b8b1aa140b57f654528": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_007",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_20220601_105424_jpg.rf.0d41b4f6156507ab0a8e03a7ba3409e7": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_007",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_20220601_105740_jpg.rf.b1074ccaf4694e91a70740c8dcc0ca9a": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_007",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_20220601_105820_jpg.rf.4afd96667dc9f2ec152878d7050852e7": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_007",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_20220601_105952_jpg.rf.f953cb46acbdbc821ab755b3b4faef0b": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_007",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_20220601_110309_jpg.rf.03bd7ee6bc12805ebc47681665499457": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_007",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_20220601_113336_jpg.rf.a3bfc218c5ce5675e95d7913214efce3": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "tiempo_008",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "IMG_20220601_113513_jpg.rf.1d9803446f6aa045fec8a81206927289": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "tiempo_008",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "IMG_20220601_113535_jpg.rf.0f1977eab94542437caf23b3a821c63e": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "tiempo_008",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "IMG_20220601_145724_jpg.rf.a30afd78742e1390cf82db0285cf35f8": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_012",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_20220601_145734_jpg.rf.2379b49ad321f886407fce0a1e16ecae": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_012",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_20220601_145744_jpg.rf.c04ebf0ffe8ab06ba6df80649e3f986c": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_012",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_20220601_145753_jpg.rf.83bf789ebe6b51f2be0284ab6d9c1d96": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_012",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_20220601_145803_jpg.rf.02331c144c74899564fd7804babdaec6": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_012",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_20220601_145817_jpg.rf.e66e66386c059651fe43976e54383c14": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_012",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_20220601_145826_jpg.rf.d44fb0ad6e2a958ad094c2d236e396e6": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_012",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_20220601_145836_jpg.rf.f65513fe89b72f659015bf985a0bd266": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_012",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_20220601_145850_jpg.rf.e79ed00f88e422cc0619d07fdc987778": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_012",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_20220601_145900_jpg.rf.758206ee315c663b2ad81fb070e200c1": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_012",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_20220601_145925_jpg.rf.f309ada4fc145ff12295134dc93e3b5c": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_012",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_20220601_145935_jpg.rf.21b03357c5825fb96f40fbac1eecfd22": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_012",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_20220601_145947_jpg.rf.d00089e0d414c84c0e8043d9086917f6": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_012",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_20220601_145956_jpg.rf.e4ea5ce4f02926aebd75bc7e91fc0d3c": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_012",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_20220601_150008_jpg.rf.3f553b66b21a3fb4b29271a5abd67ec2": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_012",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_20220601_150030_jpg.rf.582e5f8f243fcb72714dfdb55dad3dd7": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_012",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_20220601_150045_jpg.rf.9d4d55316d3e21e7a73cea9417dabf28": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_012",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_20220601_150058_jpg.rf.ac9bf2e98db71881f70bccaf3f81091f": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_012",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_20220601_150111_jpg.rf.b5d93ba64995bf05538bf9fbb1d9e66b": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_012",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_20220601_150119_jpg.rf.8837a68f436d7f32ec00b3eeb04d87cb": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_012",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_20220601_150128_jpg.rf.cab47e7799dc6dc797cae7fe66b197e8": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_012",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_20220601_150149_jpg.rf.9e29c2969911e49a06ae59de3f5ba2cc": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_012",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_20220601_150239_jpg.rf.e669616c391c4fee3ef240e91171f7c8": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_012",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_20220601_150247_jpg.rf.004ac1bf94fcb134c1d6174520658531": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_012",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_20220601_150256_jpg.rf.a0ecd016c318d505a79374325da4a58b": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_012",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_20220601_150305_jpg.rf.90ea23a5b7a7d3d903585298907801b8": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_012",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_20220601_150316_jpg.rf.22a06f4bc3191dc669f47723e96687a6": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_012",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_20220601_151255_jpg.rf.ea13d0e634a621ec8253cb575b3c1602": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "IMG_20220601_151424_jpg.rf.31d95c92a4ce4f4f6014533f030e85fa": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "IMG_20220601_151500_jpg.rf.136341205aec17e51b62a4f3a6687c6f": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "IMG_20220601_151515_jpg.rf.58373a2494f274c91030241da37d0380": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "IMG_20220720_143906_jpg.rf.177a245fcd5f8c5beca4ec3a6b9c7ebf": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "tiempo_014",
+   "subtipos": {
+    "Healthy": 60
+   }
+  },
+  "IMG_20220720_144106_jpg.rf.57e3b2a4078b5b1e1f559375d570d9b9": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "tiempo_014",
+   "subtipos": {
+    "Shriveled": 61
+   }
+  },
+  "IMG_20220720_144159_jpg.rf.d3f3d604cfad3bcb27a34479bc56d2a4": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "tiempo_014",
+   "subtipos": {
+    "Immature": 60
+   }
+  },
+  "IMG_20220720_144730_jpg.rf.88e25db3b8c8be680901f22188b05dc2": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "tiempo_014",
+   "subtipos": {
+    "Broken": 60
+   }
+  },
+  "IMG_20220720_144831_jpg.rf.0026965dd28b89719452e1268af5aa60": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "tiempo_014",
+   "subtipos": {
+    "Shriveled": 61
+   }
+  },
+  "IMG_20220720_163445_jpg.rf.2fc952f936393a2425812614324affd1": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_017",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_20220720_163736_jpg.rf.be81f603b31dc31131d343c62a145985": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_017",
+   "subtipos": {
+    "Damage": 28,
+    "Healthy": 2
+   }
+  },
+  "IMG_5169_JPG_jpg.rf.f161ca62757ba0cc24b3be89a377fdb8": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "contador_IMG_000",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_5173_JPG_jpg.rf.2f0710cbfb750929c57f2334f50c4eeb": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "contador_IMG_000",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_5176_JPG_jpg.rf.ea0ee089d552f16d8c3d79c8a0ea324f": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "contador_IMG_000",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_5179_JPG_jpg.rf.85786b06f8511146d5a27ae0b1175b6f": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "contador_IMG_000",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_5184_JPG_jpg.rf.58581866acb2ff8f8a8ceb49be995ba6": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "contador_IMG_000",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_5188_JPG_jpg.rf.df61b70b2795d51944f556276eb6e720": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "contador_IMG_000",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_5193_JPG_jpg.rf.30397284ee548a6e375fc496249ccf59": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "contador_IMG_000",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_5194_JPG_jpg.rf.a6de83a6cca0cc3661467b0cad9c96b9": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "contador_IMG_000",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_5247_JPG_jpg.rf.f6f78a34f3b6a3c58c21fd13f99df3e2": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "contador_IMG_001",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "IMG_5248_JPG_jpg.rf.2f54849cc14958e63bbdf1596aa48034": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "contador_IMG_001",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "IMG_5252_JPG_jpg.rf.339b91a5e80ae67775ff88a1cf4263e8": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "contador_IMG_001",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "IMG_5257_JPG_jpg.rf.c9ed8d201d9944ee64de9496949e9b73": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "contador_IMG_001",
+   "subtipos": {
+    "Fungus": 29,
+    "Healthy": 1
+   }
+  },
+  "IMG_5269_JPG_jpg.rf.6fca59d9f1117592c0c66392893870dd": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "contador_IMG_001",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_5283_JPG_jpg.rf.8edebddde76f5ff2e15a0813ea41524a": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "contador_IMG_001",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_5284_JPG_jpg.rf.013abc7de30deec3f7a3f9d0364f1f30": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "contador_IMG_001",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_5286_JPG_jpg.rf.83a772b143e8d19f85fc42659c118c03": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "contador_IMG_001",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_5336_JPG_jpg.rf.d7a70fdeec5c714fad645aeb63ba6657": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "contador_IMG_002",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "IMG_5339_JPG_jpg.rf.0c62519216ad065740839308084f967c": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "contador_IMG_002",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "IMG_5347_JPG_jpg.rf.1fd9b171fab8e230ef1117ed2c4c714e": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "contador_IMG_002",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "IMG_5348_JPG_jpg.rf.be6b4cfdfafff8716fa9f3146f2e73a3": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "contador_IMG_002",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "IMG_6178_JPG_jpg.rf.945149dd305a73d50ee1aa437907eff2": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "contador_IMG_003",
+   "subtipos": {
+    "Damage": 54,
+    "Shriveled": 3,
+    "Healthy": 3
+   }
+  },
+  "IMG_6196_JPG_jpg.rf.11a184f9c462b710859cc83ca861fe86": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "contador_IMG_004",
+   "subtipos": {
+    "Damage": 55,
+    "Healthy": 4,
+    "Shriveled": 1
+   }
+  },
+  "IMG_6211_JPG_jpg.rf.5067882ffbb42a57e8e9223e169cd610": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "contador_IMG_005",
+   "subtipos": {
+    "Weeveled": 25,
+    "Fungus": 1,
+    "Healthy": 5,
+    "Immature": 1
+   }
+  },
+  "20220601_120018_jpg.rf.600efab4f1f8e33c3681aedc2ac70159": {
+   "conjunto": "test",
+   "pliegue": null,
+   "lote": "tiempo_010",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "20220601_120637_jpg.rf.b6dc81e0597a2bc189917e655be26baa": {
+   "conjunto": "test",
+   "pliegue": null,
+   "lote": "tiempo_010",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "20220601_120858_jpg.rf.9e99ef05cdd39d005dc99d67524b53c4": {
+   "conjunto": "test",
+   "pliegue": null,
+   "lote": "tiempo_010",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "20220601_125045_jpg.rf.88630ee35027e85fff2dca41c9033f80": {
+   "conjunto": "test",
+   "pliegue": null,
+   "lote": "tiempo_011",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "20220601_125127_jpg.rf.6fe9d9ba39d6f5ad98cb16e1f5aa3488": {
+   "conjunto": "test",
+   "pliegue": null,
+   "lote": "tiempo_011",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "20220601_151734_jpg.rf.923b448f8df8ac4aa0e9e0f65f7f6bf2": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "20220601_152218_jpg.rf.ee2e8cd83c8fcd9d17191c146693b559": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "20220601_153118_jpg.rf.32110fb1ed791c8b650a12b090b000b3": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "20220601_153200_jpg.rf.ce0815c5799516e14c06b4e1252a7d7a": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "20220720_151205_jpg.rf.fc734e68aeb6c681bc24c500824e013f": {
+   "conjunto": "test",
+   "pliegue": null,
+   "lote": "tiempo_015",
+   "subtipos": {
+    "Healthy": 60
+   }
+  },
+  "20220720_154410_jpg.rf.7f8d0d5fa92829c73433660f2a95db1f": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_016",
+   "subtipos": {
+    "Immature": 60
+   }
+  },
+  "20220720_154525_jpg.rf.d63371a628d972b15db882d4da1b1b96": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_016",
+   "subtipos": {
+    "Damage": 52,
+    "Healthy": 4,
+    "Shriveled": 3,
+    "Broken": 1
+   }
+  },
+  "20220720_154640_jpg.rf.1cb751a959f87e0f8ce45360e5eb6b28": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_016",
+   "subtipos": {
+    "Damage": 56,
+    "Broken": 1,
+    "Shriveled": 1,
+    "Healthy": 2
+   }
+  },
+  "20220720_163106_jpg.rf.8516bfbd1185f2345959fc1dede5aed1": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_017",
+   "subtipos": {
+    "Weeveled": 25,
+    "Healthy": 6,
+    "Immature": 1
+   }
+  },
+  "DSC_0069_JPG_jpg.rf.5481f0ada60aa9fc3a0a678886db3198": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "contador_DSC_000",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "DSC_0073_JPG_jpg.rf.25059e369b96e3517ce0736638269398": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "contador_DSC_000",
+   "subtipos": {
+    "Fungus": 31
+   }
+  },
+  "IMG_20220502_154418_jpg.rf.6efb4bf273a492e7c7d01a7545a3e70f": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_000",
+   "subtipos": {
+    "Immature": 19,
+    "Damage": 16,
+    "Healthy": 37,
+    "Fungus": 4,
+    "Shriveled": 11,
+    "Broken": 5,
+    "Weeveled": 6
+   }
+  },
+  "IMG_20220502_155048_jpg.rf.6fb466d4fb2d76ff3ad30c9f1e6c0263": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_000",
+   "subtipos": {
+    "Healthy": 40,
+    "Damage": 11,
+    "Broken": 10,
+    "Weeveled": 6,
+    "Fungus": 1,
+    "Immature": 15,
+    "Shriveled": 3
+   }
+  },
+  "IMG_20220502_155756_jpg.rf.132031bf79a977c3efaed8eb01d40207": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_000",
+   "subtipos": {
+    "Healthy": 42,
+    "Immature": 18,
+    "Damage": 11,
+    "Shriveled": 2,
+    "Broken": 10,
+    "Fungus": 2,
+    "Weeveled": 5
+   }
+  },
+  "IMG_20220502_160820_jpg.rf.c6f7cfc8b72c74bea1dcad0d46d0df25": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_001",
+   "subtipos": {
+    "Healthy": 38,
+    "Damage": 16,
+    "Weeveled": 6,
+    "Shriveled": 8,
+    "Immature": 25,
+    "Broken": 4,
+    "Fungus": 1
+   }
+  },
+  "IMG_20220601_110218_jpg.rf.1812ccb4c07b93a2076da2b075079bed": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_007",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_20220601_110953_jpg.rf.8436dc1b82a2db2c7e2f89f90f44e602": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_007",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_20220601_113419_jpg.rf.99f44a7e8f909f9f59cff1b292ff9ff5": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "tiempo_008",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "IMG_20220601_113721_jpg.rf.3e0436a98eb1f2b92bdecd752edbc922": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "tiempo_008",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "IMG_20220601_150208_jpg.rf.113e1ece4251609d394d70b6a228e29f": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_012",
+   "subtipos": {
+    "Healthy": 29
+   }
+  },
+  "IMG_20220601_151410_jpg.rf.94e33588e6089078edb1ca43b80a974b": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "tiempo_013",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "IMG_20220720_143843_jpg.rf.fe06cd62b7a34c0e80bfadae7c10cbd9": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "tiempo_014",
+   "subtipos": {
+    "Healthy": 60
+   }
+  },
+  "IMG_20220720_143925_jpg.rf.54fd349f29d2b9737f18727a310719f3": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "tiempo_014",
+   "subtipos": {
+    "Broken": 60
+   }
+  },
+  "IMG_20220720_144021_jpg.rf.2f0e82d850bb2ebb05f285c83d615c66": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "tiempo_014",
+   "subtipos": {
+    "Weeveled": 47,
+    "Healthy": 14,
+    "Fungus": 1
+   }
+  },
+  "IMG_20220720_144125_jpg.rf.a2d3593bb5467b7d7d797c0ea0715eff": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "tiempo_014",
+   "subtipos": {
+    "Shriveled": 61
+   }
+  },
+  "IMG_20220720_144708_jpg.rf.65da2bff5ac41858872e0125de6ad3e3": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "tiempo_014",
+   "subtipos": {
+    "Broken": 60
+   }
+  },
+  "IMG_20220720_144743_jpg.rf.7a9db72516664128db33348daea69e36": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "tiempo_014",
+   "subtipos": {
+    "Weeveled": 42,
+    "Damage": 1,
+    "Healthy": 17,
+    "Immature": 1,
+    "Fungus": 1
+   }
+  },
+  "IMG_20220720_144857_jpg.rf.5e1449711fdccb79fd055cf00303d746": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "tiempo_014",
+   "subtipos": {
+    "Shriveled": 61
+   }
+  },
+  "IMG_20220720_144924_jpg.rf.61196b46ab6dbe095af0963f6e35da28": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "tiempo_014",
+   "subtipos": {
+    "Immature": 60
+   }
+  },
+  "IMG_20220720_163627_jpg.rf.3437388e055751fa64ff2fb333003f74": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "tiempo_017",
+   "subtipos": {
+    "Shriveled": 30
+   }
+  },
+  "IMG_5168_JPG_jpg.rf.219b952294ccacf96c81854fa3f34023": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "contador_IMG_000",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_5185_JPG_jpg.rf.4bec20ff9a938501e147b64b3e3aba18": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "contador_IMG_000",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_5250_JPG_jpg.rf.df3f9409f1a630033629310ee9754d8b": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "contador_IMG_001",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "IMG_5254_JPG_jpg.rf.9de77956a682c7878276b7e6116a48aa": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "contador_IMG_001",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "IMG_5260_JPG_jpg.rf.1b554e4d215e99216fafce4c04b1cc39": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "contador_IMG_001",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_5272_JPG_jpg.rf.29f7352c7b1eb89f7e890538094a5e47": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "contador_IMG_001",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_5274_JPG_jpg.rf.cff22dbc7a7ac7932841d7a4e560b5b5": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "contador_IMG_001",
+   "subtipos": {
+    "Healthy": 30
+   }
+  },
+  "IMG_5334_JPG_jpg.rf.f8ec6e0541f7ddb82f067ea894dd5e9b": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "contador_IMG_002",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "IMG_5342_JPG_jpg.rf.e95de946b1235e831128987dac3cd40a": {
+   "conjunto": "dev",
+   "pliegue": 2,
+   "lote": "contador_IMG_002",
+   "subtipos": {
+    "Fungus": 30
+   }
+  },
+  "IMG_6171_JPG_jpg.rf.37a1a0d5535e7e4aefc9151f3fd25c12": {
+   "conjunto": "dev",
+   "pliegue": 0,
+   "lote": "contador_IMG_003",
+   "subtipos": {
+    "Broken": 60
+   }
+  },
+  "IMG_6186_JPG_jpg.rf.2f2f7d74824c52da1b0200a21bfe29b4": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "contador_IMG_004",
+   "subtipos": {
+    "Healthy": 60
+   }
+  },
+  "IMG_6193_JPG_jpg.rf.a4e383c4ec97a24dfb269eb9031ac8ad": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "contador_IMG_004",
+   "subtipos": {
+    "Immature": 60
+   }
+  },
+  "IMG_6194_JPG_jpg.rf.5768caeae7c9a75b91f3c13bb53d9ee9": {
+   "conjunto": "dev",
+   "pliegue": 1,
+   "lote": "contador_IMG_004",
+   "subtipos": {
+    "Immature": 60
+   }
+  },
+  "IMG_6212_JPG_jpg.rf.f99619b64e5f6b316e1571269cc681fd": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "contador_IMG_005",
+   "subtipos": {
+    "Weeveled": 25,
+    "Fungus": 1,
+    "Healthy": 5,
+    "Immature": 1
+   }
+  },
+  "IMG_6217_JPG_jpg.rf.16f5b8465379d79f4c89dfb95519aba0": {
+   "conjunto": "dev",
+   "pliegue": 3,
+   "lote": "contador_IMG_005",
+   "subtipos": {
+    "Healthy": 4,
+    "Damage": 26
+   }
+  }
+ }
+}
