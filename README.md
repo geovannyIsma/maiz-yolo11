@@ -24,6 +24,7 @@ maiz-yolo11/
 │   ├── docs/            plan del OE2 e informe de cada actividad
 │   ├── resultados/      experimentos/<fase>.csv, configuraciones adoptadas, entornos
 │   └── salida/          figuras de cada notebook
+├── antecedentes/        PIIC y figuras de la asignatura Proyectos Tecnológicos (julio de 2026)
 ├── fotos/               fotos propias (sin metadatos)
 │   ├── hojas_vacias/    fondos sin granos, por sesión de captura
 │   └── propias/         fotos de prueba con smartphone y su referencia
@@ -58,7 +59,7 @@ Los notebooks generan el resto de `datos/`:
 - `Data_final`: dataset final, 1280 px, partición por lote;
 - `fondos`: fondos negativos.
 
-`Data_corr_v6`, `Data_final`, `fondos` y los pesos de los modelos finales se publican en Zenodo, porque no caben en git. Los zips se generan en `zenodo/`.
+`Data_corr_v6`, `Data_final`, `fondos` y los pesos de los modelos finales se publican en Zenodo, porque no caben en git: [10.5281/zenodo.23400166](https://doi.org/10.5281/zenodo.23400166). Los zips se generan en `zenodo/`.
 
 ## Orden de ejecución
 
