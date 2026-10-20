@@ -22,7 +22,7 @@ flowchart LR
 
 Este plan detalla la 2.1 y la 2.2. Los pasos siguientes se decidieron con las evidencias de cada etapa:
 - **Impurezas → fondos negativos:** los modelos detectaban casi todas las impurezas como granos. Con los fondos negativos dejan de hacerlo, y se adoptaron (`2.2c_fondos_negativos.md`).
-- **Imágenes externas propias:** el conteo y el reconocimiento de defectos se mantienen, pero los granos sanos próximos a granos defectuosos se clasifican como `Defect`. La causa es que el dataset original casi no tiene escenas mezcladas. Se amplía el dataset con fotos propias; la toma de fotos y el tratamiento del aumento C están en `2.2d_fotos_propias.md` (sección 6).
+- **Imágenes externas propias:** el conteo y el reconocimiento de defectos se mantienen, pero los granos sanos próximos a granos defectuosos se clasifican como `Defect`. El fallo mostró sensibilidad al contexto de la escena y al encuadre, y el dataset original casi no tiene escenas mezcladas. Se amplía el dataset con fotos propias, con escenas mezcladas y distintos encuadres; la toma de fotos y el tratamiento del aumento C están en `2.2d_fotos_propias.md` (sección 6).
 
 ## 2. Principios, heredados del OE1
 
